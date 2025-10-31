@@ -66,14 +66,14 @@ torch
 roboflow
 
 
-🧠 Model Architecture
+Model Architecture
 
 Model: YOLOv8s (Small Variant)
 Layers: 129  Parameters: 11.1M  GFLOPs: 28.7
 
-🔹 Backbone: CSPDarknet with C2f blocks
-🔹 Neck: PANet for feature fusion
-🔹 Head: YOLO Detection head (anchor-free)
+Backbone: CSPDarknet with C2f blocks
+Neck: PANet for feature fusion
+Head: YOLO Detection head (anchor-free)
 
 
 
