@@ -54,7 +54,7 @@ This project presents an **automated chain-snatching detection system** powered 
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/22becse52/Yolo/blob/main/yolotraining%20(3).ipynb
+git clone https://github.com/22becse52/Yolo.git
 cd ChainSnatching-Detection
 pip install -r requirements.txt
 ```
