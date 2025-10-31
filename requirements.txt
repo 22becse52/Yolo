@@ -1,1 +1,35 @@
 
+# ======================================
+# Real-Time Chain Snatching Detection
+# Author: Yash Kumar Chandra
+# ======================================
+
+# Core Dependencies
+ultralytics==8.3.2           # YOLOv8 framework for object detection
+torch>=2.0.0                 # PyTorch backend
+torchvision>=0.15.0
+numpy>=1.26.0
+opencv-python>=4.9.0         # For image/video I/O and visualization
+pandas>=2.2.0
+matplotlib>=3.8.0
+
+# Dataset and Data Handling
+roboflow==1.1.21             # Dataset management and YOLO format export
+requests>=2.31.0             # For Roboflow API calls
+
+# Environment Utilities
+tqdm>=4.66.0                 # Progress bars
+PyYAML>=6.0                  # For reading YAML dataset config
+seaborn>=0.13.0              # Optional: for results visualization
+
+# Jupyter / Colab Support (optional)
+ipython
+notebook
+
+# Optional — GPU Support (auto handled in Colab)
+# If using locally, install according to your CUDA version:
+# torch==2.0.0+cu118 -f https://download.pytorch.org/whl/torch_stable.html
+
+# ======================================
+# End of Requirements
+# ======================================
